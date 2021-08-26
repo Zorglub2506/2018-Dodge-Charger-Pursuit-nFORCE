@@ -99,9 +99,9 @@
 	<!-- SECL -->
 	<SECL LightingFormat="leds" DisableAtLstg3="true" >
 		<PresetPatterns>
-			<Lstg1 Enabled="false" Pattern="SCAN" />
-			<Lstg2 Enabled="false" Pattern="SCAN" />
-			<Lstg3 Enabled="false" Pattern="SCAN" />
+			<Lstg1 Enabled="false" Pattern="26" />
+			<Lstg2 Enabled="false" Pattern="26" />
+			<Lstg3 Enabled="false" Pattern="26" />
 		</PresetPatterns>
 		<ForcedPatterns>
 			<MainHorn Enabled="true" Pattern="140" />
@@ -110,7 +110,7 @@
 			<SrnTone3 Enabled="true" Pattern="116" />
 			<SrnTone4 Enabled="true" Pattern="0" />
 			<PanicMde Enabled="false" Pattern="0" />
-			<OutOfVeh Enabled="false" Pattern="0" />
+			<OutOfVeh Enabled="true" Pattern="26" />
 		</ForcedPatterns>
 		<ScanPatternCustomPool Enabled="true" Sequential="true" >
 			<Pattern>94</Pattern>
