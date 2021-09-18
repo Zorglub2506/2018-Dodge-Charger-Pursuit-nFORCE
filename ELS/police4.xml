@@ -60,7 +60,7 @@
 	<!-- WRNL -->
 	<WRNL LightingFormat="leds" >
 		<PresetPatterns>
-			<Lstg3 Enabled="false" Pattern="17" />
+			<Lstg3 Enabled="true" Pattern="0" />
 		</PresetPatterns>
 		<ForcedPatterns>
 			<MainHorn Enabled="true" Pattern="1" />
@@ -79,8 +79,8 @@
 	<!-- PRML -->
 	<PRML LightingFormat="leds" ExtrasActiveAtLstg2="1and4" >
 		<PresetPatterns>
-			<Lstg2 Enabled="true" Pattern="32" />
-			<Lstg3 Enabled="true" Pattern="119" />
+			<Lstg2 Enabled="true" Pattern="33" />
+			<Lstg3 Enabled="true" Pattern="127" />
 		</PresetPatterns>
 		<ForcedPatterns>
 			<MainHorn Enabled="true" Pattern="140" />
@@ -99,18 +99,18 @@
 	<!-- SECL -->
 	<SECL LightingFormat="leds" DisableAtLstg3="true" >
 		<PresetPatterns>
-			<Lstg1 Enabled="false" Pattern="26" />
-			<Lstg2 Enabled="false" Pattern="26" />
-			<Lstg3 Enabled="false" Pattern="26" />
+			<Lstg1 Enabled="true" Pattern="122" />
+			<Lstg2 Enabled="true" Pattern="122" />
+			<Lstg3 Enabled="true" Pattern="122" />
 		</PresetPatterns>
 		<ForcedPatterns>
-			<MainHorn Enabled="true" Pattern="140" />
-			<SrnTone1 Enabled="true" Pattern="SCAN" />
-			<SrnTone2 Enabled="true" Pattern="0" />
-			<SrnTone3 Enabled="true" Pattern="116" />
-			<SrnTone4 Enabled="true" Pattern="0" />
-			<PanicMde Enabled="false" Pattern="0" />
-			<OutOfVeh Enabled="true" Pattern="26" />
+			<MainHorn Enabled="true" Pattern="3" />
+			<SrnTone1 Enabled="true" Pattern="3" />
+			<SrnTone2 Enabled="true" Pattern="1" />
+			<SrnTone3 Enabled="true" Pattern="1" />
+			<SrnTone4 Enabled="true" Pattern="1" />
+			<PanicMde Enabled="false" Pattern="1" />
+			<OutOfVeh Enabled="true" Pattern="122" />
 		</ForcedPatterns>
 		<ScanPatternCustomPool Enabled="true" Sequential="true" >
 			<Pattern>94</Pattern>
